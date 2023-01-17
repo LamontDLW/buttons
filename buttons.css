@@ -1,0 +1,163 @@
+button {
+  margin: 10px;
+}
+
+button:hover {
+  cursor: pointer;
+}
+
+.subscribe {
+  background-color: rgb(200, 0, 0);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 105px;
+  border-radius: 1px;
+  cursor: pointer;
+  margin-right: 8px;
+  transition: opacity 0.15s;
+}
+
+.subscribe:hover {
+  opacity: 0.8;
+}
+
+.subscribe:active {
+  opacity: 0.5;
+}
+
+.join {
+  background-color: white;
+  border-color: rgb(41, 118, 211);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(41, 118, 211);
+  height: 36px;
+  width: 62px;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+.join:hover {
+  background-color: rgb(41, 118, 211);
+  color: white;
+}
+
+.join:active {
+  opacity: 0.7;
+}
+
+.tweet {
+  background-color: rgb(2, 158, 255);
+  color: white;
+  border: none;
+  height: 36px;
+  width: 74px;
+  border-radius: 8px;
+  border-radius: 18px;
+  font-weight: bold;
+  font-size: 15px;
+  cursor: pointer;
+  margin-left: 8px;
+  transition: box-shadow 0.15s;
+}
+
+.tweet:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.follow {
+  background-color: #2b8ced;
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 10px 40px;
+
+  border: none;
+  border-radius: 0.5rem;
+  transition: opacity 0.15s;
+}
+
+.follow:hover {
+  opacity: 0.9;
+}
+
+.unfollow {
+  background-color: #333;
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 10px 40px;
+
+  border: none;
+  border-radius: 0.5rem;
+  transition: opacity 0.15s;
+}
+
+.unfollow:hover {
+  opacity: 0.9;
+}
+
+.new {
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 15px;
+
+  border: none;
+  border-radius: 0.5rem;
+  transition: opacity 0.15s;
+}
+
+.new:hover {
+  opacity: 0.9;
+}
+
+.add-to-cart {
+  background-color: transparent;
+  color: black;
+  font-weight: bold;
+  font-family: Arial;
+  padding: 15px;
+
+  border: solid black 2px;
+  border-radius: 2rem;
+  transition: border 0.15s, color 0.15s, background-color 0.15s;
+}
+
+.add-to-cart:hover {
+  background-color: black;
+  color: white;
+  border: solid white 2px;
+}
+
+.learn-more {
+  background-color: transparent;
+  color: rgb(47, 127, 231);
+  font-weight: normal;
+  font-family: Arial;
+  padding: 15px;
+  border: none;
+}
+
+.learn-more:hover {
+  text-decoration: underline;
+}
+
+.buy {
+  background-color: rgb(47, 127, 231);
+  color: white;
+  font-weight: normal;
+  font-family: Arial;
+  padding: 10px 20px;
+
+  border: none;
+  border-radius: 20px;
+  transition: background-color 0.15s;
+}
+
+.buy:hover {
+  background-color: rgb(62, 141, 244);
+}
